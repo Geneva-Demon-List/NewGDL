@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>Upgraded list template</title>
+        <title>GDL</title>
         <!-- Icon for tab image here Right now its just set to one of the images inside of assets but you can replace it with your own-->
         <link rel="icon" href="assets/code.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,7 +37,7 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>Upgraded list template</h2>
+                <h2>Geneva Demon List</h2>
                 <p>v1.0</p>
             </div>
             <nav class="nav">
@@ -45,7 +45,7 @@
                     <span class="type-label-lg">List</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Leaderboard</span>
+                    <span class="type-label-lg">Stats Viewer</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Roulette</span>
@@ -63,25 +63,17 @@
                             alt=""
                         />
                     </button>
-                    <!--
-                    Remove the comment indicators above and below to re-show the youtube and github links.
-                    <a class="nav__icon" href="https://www.youtube.com/@ConsistencyChallengeList-y9c">
-                        <img src="/assets/youtube.svg" alt="Youtube Logo"/>
-                    </a>
-                    <a class="nav__icon" href="https://github.com/efngod167/ConsistencyChallengeList">
-                        <img src="/assets/github.svg" alt="Github Logo"/>
-                    </a>
-                    -->
-
-                    <!-- This needs to have a discord link inside of href="discord link here"-->
-
-                    <a
-                        
+                                            <!-- Replace the '#' with your discord server's invite-->
+                        <a class="nav__icon" href="https://discord.gg/BpXefz6KCJ ">
+                        <img src="/assets/discord.svg" alt="Discord Logo" />
+                        </a>
+                        <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
+                        <a
                         class="nav__cta type-label-lg"
-                        href=""
+                        href="https://docs.google.com/document/d/1NBXTe4QKpnan-nY3afxUl8mFl4_B7FuG5v5yi15z-T8/edit?usp=sharing"
                         target="_blank"
-                        >Join Server</a
-                    >
+                        >Submit Record</a
+                        >
                 </div>
             </nav>
         </header>
