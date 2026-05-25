@@ -1,5 +1,36 @@
 [
     {
+        "name": "Beginner Demons I",
+        "color": "#00FF52",
+        "levels": [
+            13519,
+            56587109,
+            55520,
+            5904109,
+            56210242
+        ]
+    },
+    {
+        "name": "Beginner Demons II",
+        "color": "#00AB37",
+        "levels": [
+            65765662,
+            5098465,
+            3543219,
+            10109,
+            77238488
+        ]
+    },
+    {
+        "name": "RobTop Demons",
+        "color": "#6A00FF",
+        "levels": [
+            77238488,
+            77239599,
+            77240630
+        ]
+    },
+    {
         "name": "Nine Circles I",
         "color": "#FF0000",
         "levels": [
