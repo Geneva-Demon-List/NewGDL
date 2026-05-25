@@ -116,10 +116,6 @@ export default {
               <div class="type-title-sm">VERSION</div>
               <p>{{ selectedLevel.version || 'Any' }}</p>
             </li>
-            <li>
-              <div class="type-title-sm">ALTERNATING</div>
-              <p>{{ selectedLevel.alternating || 'No' }}</p>
-            </li>
           </ul>
         </div>
       </div>
