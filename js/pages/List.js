@@ -194,16 +194,67 @@ export default {
               </li>
             </ol>
           </template>
-        <p>All of the code was made by the people above. All I did was edit the template to have some instructions and I also cleared out the levels in it. Make sure to replace any placeholder text. I've added some notes here and there if you want to go and read it. Theres also a tutorial on how to add packs under the tools folder. Add levels, records, packs, and editors in the files under the data folder. Have fun! <br><br>You can remove this message in List.js under js/pages/List.js.</p>
-        <h3>Level Requirements</h3>
-        <p>This is where you add extra info</p>
-        <p>It's at the bottom of List.js</p>
-		    <p>Put what you want to say inside of HTML paragraph tags.</p>
-		    <p>If you don't know what that is, look it up or learn some html. its pretty simple</p>
-        <p>Make sure to replace this with requirements for levels on your list.</p>
-		    <h3>Submission Requirements</h3>
-        <p>This is where you put the rules for submissions</p>
-        <p>Edit this the exact same as the level requirements above.</p>
+        <h2>Also check out the Geneva Challengelist by <a href="https://gdlchallenge.pages.dev">CLICKING HERE</a>!</h2>
+                    <h2>The GD Lite List can also be found by <a href="https://gdllite.pages.dev">CLICKING HERE</a>!</h2>
+                    <h3>The list of future Main List Top 1's are <a href="https://gdltop1.pages.dev">FOUND HERE</a>!</h3>
+                    <h3>Submission Requirements</h3>
+                    <p>
+                        Submission MUST be done by somebody who lives within Geneva, Ohio.
+                    </p>
+                    <p>
+                        Achieved the record without using hacks (however, FPS bypass is allowed). When using mod menus ( Mega Hack, Eclipse, etc ), the Cheat Indicator must be on.
+                    </p>
+                    <p>
+                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record. If it is a level new to the site, this rule is invalidated.
+                    </p>
+                    <p>
+                        Have audible click sounds ( no clickbot allowed ) OR a handcam throughout the video only IF it is a Hard Demon, Insane Demon, or Extreme Demon. If it is unrated, it is up to our decision.
+                    </p>
+                    <p>
+                        About Clickbotting levels, they are considered extremely suspicious on this list. If you clickbot one or two easy demons for example, it will usually not be considered a rulebreak. Doing it often, however, can lead into a purge of your submissions or even a possible ban.
+                    </p>
+                    <p>
+                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. ( Only applies to Unrated/Rated Insane Demon or Extreme Demon )
+                    </p>
+                    <p>
+                        If the level is a verification, a level new to the list, the entire attempt must be recorded. This applies to all levels.
+                    </p>
+                    <p>
+                        For all levels, recorded evidence must be provided. No sending screenshots because they do not provide enough evidence for it to be legit.
+                    </p>
+                    <p>
+                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                    </p>
+                    <p>
+                        Do not use secret routes or bug routes
+                    </p>
+                    <p>
+                        Do not use easy modes, only a record of the unmodified level qualifies
+                    </p>
+                    <p>
+                        Once a level falls onto the Legacy List ( Below Top 200 ), new records are no longer accepted. Sorry!
+                    </p>
+                    <p>
+                        All submissions here must be done on the full version of Geometry Dash. Any completions on Lite must go to the Lite list.
+                    </p>
+                    <p>
+                        All levels on this list must be published and publicly available for anybody with the full version to play.
+                    </p>
+                    <p>
+                        All submissions on the Main list on levels less than 30 seconds long must go to the challenge list. You can check this by seeing the level page, and if it is described as "Short" or "Tiny", it belongs on the Challenge List.
+                    </p>
+                    <p>
+                        All submissions must be done on a level already on the list, or if it is a GDL Verification, the level must either be rated, be decorated to some extent, or have historial significance.
+                    </p>
+                    <p>
+                        Non-Demon levels are not allowed on this list, the minimum are Easy Demon difficulty levels.
+                    </p>
+                    <p>
+                        If you use Mega Hack, you must set your ruleset to Demonlist. This also means that if the GD Demonlist does not allow a hack to be turned on, the GDL doesn't either.
+                    </p>
+                    <p>
+                        If one were to beat a level on this list on their own personal copy ( StartPos copy, for example ), they must upload it and have it reviewed by the mods. The personal copy should not make the level any easier or harder to play, this involves, nerfs, buffs, or changing the decoration. ( No layouts! )
+                    </p>
         </div>
       </div>
     </main>
