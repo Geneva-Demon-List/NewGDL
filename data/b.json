@@ -1,0 +1,18 @@
+{
+    "id": 34085027,
+    "name": "B",
+    "author": "motleyorc",
+    "creators": [],
+    "verifier": "pandaboi2512",
+    "verification": "https://youtu.be/ZDpyuT3Yhbs",
+    "percentToQualify": "80",
+    "difficulty": "Medium Demon",
+    "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/Z69sDpb-jHE",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

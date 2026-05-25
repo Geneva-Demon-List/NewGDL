@@ -1,0 +1,18 @@
+{
+    "id": 14000484,
+    "name": "Retro Circles",
+    "author": "Nacho21",
+    "creators": [],
+    "verifier": "earthmoth",
+    "verification": "https://youtu.be/noTWPOU5XL4",
+    "percentToQualify": "100",
+    "difficulty": "Easy Demon",
+    "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/OnBwTmvkIk8",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

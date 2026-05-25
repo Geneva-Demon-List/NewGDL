@@ -1,0 +1,18 @@
+{
+    "id": 56210242,
+    "name": "Shiver",
+    "author": "SpKale",
+    "creators": [],
+    "verifier": "EarthMoth",
+    "verification": "https://www.youtube.com/watch?v=6e2RWeOkzIY",
+    "percentToQualify": "100",
+    "difficulty": "Easy Demon",
+    "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/GRKR06_pgsg?si=sCSpvNU-XsJdZj0Q",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

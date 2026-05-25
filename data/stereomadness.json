@@ -1,0 +1,24 @@
+{
+    "id": "Main Level",
+    "name": "Stereo Madness",
+    "author": "RobTop",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "www.youtube.com/watch?v=I89ZUKIVJdo",
+    "percentToQualify": "100",
+    "difficulty": "Easy",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://www.youtube.com/watch?v=8i6rnbMSdws",
+            "percent": 100,
+            "hz": 480
+        },
+        {
+            "user": "EarthMoth",
+            "link": "https://youtu.be/nVOIRGHZyzg",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}

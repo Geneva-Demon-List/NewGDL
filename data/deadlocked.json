@@ -1,0 +1,18 @@
+{
+    "id": "Main Level",
+    "name": "Deadlocked",
+    "author": "RobTop",
+    "creators": [],
+    "verifier": "earthmoth",
+    "verification": "https://youtu.be/6zgcii8AeUI",
+    "percentToQualify": "80",
+    "difficulty": "Easy Demon",
+    "records": [
+        {
+            "user": "wRocket",
+            "link": "https://www.youtube.com/watch?v=TOCi1dsX0eA",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

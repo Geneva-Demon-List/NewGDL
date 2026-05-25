@@ -1,0 +1,18 @@
+{
+    "id": "Main Level",
+    "name": "Hexagon Force",
+    "author": "RobTop",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://www.youtube.com/watch?v=2UmT7kUadFw",
+    "percentToQualify": "70",
+    "difficulty": "Insane",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://www.youtube.com/watch?v=cAqGQUSIXMQ",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "Main Level",
+    "name": "Dash",
+    "author": "RobTop",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "https://www.youtube.com/watch?v=2UmT7kUadFw",
+    "percentToQualify": "70",
+    "difficulty": "Insane",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/WLlA493BQGw?si=TfewYCZv2t533XOQ",
+            "percent": 100,
+            "hz": 475
+        },
+        {
+            "user": "earthmoth",
+            "link": "https://youtu.be/G6JhU3PeQ2A",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "Main Level",
+    "name": "Dry Out",
+    "author": "RobTop",
+    "creators": [],
+    "verifier": "wRocket",
+    "verification": "www.youtube.com/watch?v=I89ZUKIVJdo",
+    "percentToQualify": "100",
+    "difficulty": "Normal",
+    "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://www.youtube.com/watch?v=l-JA_lEgU2Q",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}
