@@ -194,8 +194,7 @@ export default {
               </li>
             </ol>
           </template>
-        <h2>Also check out the Geneva Challengelist by <a href="https://gdlchallenge.pages.dev">CLICKING HERE</a>!</h2>
-                    <h2>The GD Lite List can also be found by <a href="https://gdllite.pages.dev">CLICKING HERE</a>!</h2>
+        <h3>Also check out the Geneva Challengelist by <a href="https://gdlchallenge.pages.dev">CLICKING HERE</a>!</h3>
                     <h3>The list of future Main List Top 1's are <a href="https://gdltop1.pages.dev">FOUND HERE</a>!</h3>
                     <h3>Submission Requirements</h3>
                     <p>
