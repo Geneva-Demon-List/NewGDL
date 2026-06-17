@@ -119,10 +119,18 @@ export default {
           <iframe class="video" id="videoframe" :src="embed(selectedLevel.showcase || selectedLevel.verification)" frameborder="0"></iframe>
           <ul class="stats">
             <li>
-              <div class="type-title-sm">Points when completed</div>
+              <div class="type-title-sm">Points when getting 100%</div>
               <p>
                 {{
                   score(getOriginalRank(selectedLevel), 100, selectedLevel.percentToQualify)
+                }}
+              </p>
+            </li>
+            <li>
+              <div class="type-title-sm">Points when getting {{ selectedLevel.percentToQualify }}%</div>
+              <p>
+                {{
+                  score(getOriginalRank(selectedLevel), selectedLevel.percentToQualify, selectedLevel.percentToQualify)
                 }}
               </p>
             </li>
