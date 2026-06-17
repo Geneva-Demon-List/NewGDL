@@ -138,14 +138,6 @@ export default {
               <div class="type-title-sm">ID</div>
               <p>{{ selectedLevel.id }}</p>
             </li>
-            <li>
-              <div class="type-title-sm">FPS</div>
-              <p>{{ selectedLevel.fps || 'Any' }}</p>
-            </li>
-            <li>
-              <div class="type-title-sm">VERSION</div>
-              <p>{{ selectedLevel.version || 'Any' }}</p>
-            </li>
           </ul>
           <h2>Records</h2>
           <p v-if="selectedIndexInFullList <= 75">
