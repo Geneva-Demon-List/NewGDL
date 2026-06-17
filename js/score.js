@@ -25,7 +25,7 @@ export function score(rank, percent, minPercent) {
     */
     // New formula
     let score = (350 / ((rank + 9.1) / 10.1)) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+        (((percent / 100) * minPercent) / minPercent);
 
     score = Math.max(0, score);
 
