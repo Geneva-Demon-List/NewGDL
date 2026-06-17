@@ -126,7 +126,7 @@ export default {
                 }}
               </p>
             </li>
-            <li>
+            <li v-if="selectedLevel.percentToQualify < 100 && getOriginalRank(selectedLevel) <= 75">
               <div class="type-title-sm">Points when getting {{ selectedLevel.percentToQualify }}%</div>
               <p>
                 {{
