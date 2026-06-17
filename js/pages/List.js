@@ -96,7 +96,7 @@ export default {
         <table class="list" v-if="filteredList.length">
           <tr v-for="(item, i) in filteredList" :key="i">
             <td class="rank">
-              <p v-if="getOriginalRank(item[0]) <= 200" class="type-label-lg">
+              <p v-if="getOriginalRank(item[0]) <= 150" class="type-label-lg">
                 #{{ getOriginalRank(item[0]) }}
               </p>
               <p v-else class="type-label-lg">Legacy</p>
@@ -140,10 +140,10 @@ export default {
             </li>
           </ul>
           <h2>Records</h2>
-          <p v-if="selectedIndexInFullList <= 100">
+          <p v-if="selectedIndexInFullList <= 75">
             <strong>{{ selectedLevel.percentToQualify }}%</strong> to qualify
           </p>
-          <p v-else-if="selectedIndexInFullList <= 200">
+          <p v-else-if="selectedIndexInFullList <= 150">
             <strong>100%</strong> to qualify
           </p>
           <p v-else>This level does not accept new records.</p>
