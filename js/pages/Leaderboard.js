@@ -94,16 +94,16 @@ export default {
             <h2 v-if="selectedEntry.verified && selectedEntry.verified.length > 0">
               Verified ({{ selectedEntry.verified.length }})
             </h2>
-            <table class="table" v-if="selectedEntry.verified && selectedEntry.verified.length > 0">
+            <table class="table" v-if="selectedEntry.verified && selectedEntry.verified.length > 0" style="border-spacing: 2px;">
               <tr v-for="score in selectedEntry.verified">
                 <td class="rank">
-                  <p>#{{ score.rank }}</p>
+                  <p style="font-size: 12px;">#{{ score.rank }}</p>
                 </td>
                 <td class="level">
-                  <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                  <a class="type-label-lg" target="_blank" :href="score.link" style="font-size: 12px;"><b v-if="score.rank <= 75"><i v-if="score.rank > 150">{{ score.level }}</i></b></a>
                 </td>
                 <td class="score">
-                  <p>+{{ localize(score.score) }}</p>
+                  <p style="font-size: 12px;">+{{ localize(score.score) }}</p>
                 </td>
               </tr>
             </table>
@@ -113,13 +113,13 @@ export default {
             <table class="table" v-if="selectedEntry.completed && selectedEntry.completed.length > 0">
               <tr v-for="score in selectedEntry.completed">
                 <td class="rank">
-                  <p>#{{ score.rank }}</p>
+                  <p style="font-size: 12px;">#{{ score.rank }}</p>
                 </td>
                 <td class="level">
-                  <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                  <a class="type-label-lg" target="_blank" :href="score.link" style="font-size: 12px;"><b v-if="score.rank <= 75"><i v-if="score.rank > 150">{{ score.level }}</i></b></a>
                 </td>
                 <td class="score">
-                  <p>+{{ localize(score.score) }}</p>
+                  <p style="font-size: 12px;">+{{ localize(score.score) }}</p>
                 </td>
               </tr>
             </table>
