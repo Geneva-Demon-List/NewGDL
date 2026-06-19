@@ -100,7 +100,7 @@ export default {
                   <p>#{{ score.rank }}</p>
                 </td>
                 <td class="level">
-                  <a class="type-label-lg" target="_blank" :href="score.link"><b v-if="score.rank <= 75"><i v-if="score.rank > 150">{{ score.level }}</i></b></a>
+                  <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                 </td>
                 <td class="score">
                   <p>+{{ localize(score.score) }}</p>
@@ -116,7 +116,7 @@ export default {
                   <p>#{{ score.rank }}</p>
                 </td>
                 <td class="level">
-                  <a class="type-label-lg" target="_blank" :href="score.link"><b v-if="score.rank <= 75"><i v-if="score.rank > 150">{{ score.level }}</i></b></a>
+                  <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                 </td>
                 <td class="score">
                   <p>+{{ localize(score.score) }}</p>
