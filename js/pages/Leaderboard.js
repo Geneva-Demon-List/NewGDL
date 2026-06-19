@@ -94,7 +94,7 @@ export default {
             <h2 v-if="selectedEntry.verified && selectedEntry.verified.length > 0">
               Verified ({{ selectedEntry.verified.length }})
             </h2>
-            <table class="table" v-if="selectedEntry.verified && selectedEntry.verified.length > 0" style="border-spacing: 2px;">
+            <table class="table" v-if="selectedEntry.verified && selectedEntry.verified.length > 0" style="border-spacing: 1px;">
               <tr v-for="score in selectedEntry.verified">
                 <td class="rank">
                   <p>#{{ score.rank }}</p>
@@ -110,7 +110,7 @@ export default {
             <h2 v-if="selectedEntry.completed && selectedEntry.completed.length > 0">
               Completed ({{ selectedEntry.completed.length }})
             </h2>
-            <table class="table" v-if="selectedEntry.completed && selectedEntry.completed.length > 0">
+            <table class="table" v-if="selectedEntry.completed && selectedEntry.completed.length > 0" style="border-spacing: 1px;">
               <tr v-for="score in selectedEntry.completed">
                 <td class="rank">
                   <p>#{{ score.rank }}</p>
