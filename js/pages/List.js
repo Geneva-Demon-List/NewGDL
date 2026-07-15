@@ -198,7 +198,7 @@ export default {
                     <h3>The list of GDL Top Records are <a href="https://gdltop1.pages.dev">FOUND HERE</a>!</h3>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Submission MUST be done by somebody who lives close to where the other people on this list live.
+                        Submission MUST be done by somebody who lives in the same town as the other people on the list.
                     </p>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed). When using mod menus ( Mega Hack, Eclipse, etc ), the Cheat Indicator must be on.
