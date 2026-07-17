@@ -18,11 +18,15 @@ export default {
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Main List</label>
+                        <label for="main">Main List ( Top 1-75 )</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Extended List</label>
+                        <label for="extended">Extended List ( Top 76-150 )</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="unbounded" value="Unbounded List" v-model="useUnboundedList">
+                        <label for="unbounded">Unbounded List ( Top 151+ )</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
                 </form>
@@ -189,6 +193,9 @@ export default {
             if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
             if (this.useExtendedList) {
                 list.push(...fullListMapped.slice(75, 150));
+            }
+            if (this.useUnboundedList) {
+                list.push(...fullListMapped.slice(150, 99999));
             }
 
             // random 100 levels
