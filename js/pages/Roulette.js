@@ -17,8 +17,12 @@ export default {
                 </p>
                 <form class="options">
                     <div class="check">
+                        <input type="checkbox" id="upper" value="Upper List" v-model="useUpperList">
+                        <label for="main">Upper Top List ( Top 1-40 )</label>
+                    </div>
+                    <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Main List ( Top 1-75 )</label>
+                        <label for="main">Top List ( Top 41-75 )</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
@@ -110,6 +114,7 @@ export default {
         percentage: undefined,
         givenUp: false,
         showRemaining: false,
+        useUpperList: true,
         useMainList: true,
         useExtendedList: true,
         toasts: [],
@@ -190,7 +195,10 @@ export default {
                 video: lvl.verification,
             }));
             const list = [];
-            if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
+            if (this.useUpperList) list.push(...fullListMapped.slice(1, 40));
+            if (this.useMainList) {
+                list.push(...fullListMapped.slice(40, 75));
+            }
             if (this.useExtendedList) {
                 list.push(...fullListMapped.slice(75, 150));
             }
