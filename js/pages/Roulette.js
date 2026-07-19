@@ -195,7 +195,7 @@ export default {
                 video: lvl.verification,
             }));
             const list = [];
-            if (this.useUpperList) list.push(...fullListMapped.slice(1, 40));
+            if (this.useUpperList) list.push(...fullListMapped.slice(0, 40));
             if (this.useMainList) {
                 list.push(...fullListMapped.slice(40, 75));
             }
