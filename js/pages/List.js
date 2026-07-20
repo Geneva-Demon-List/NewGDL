@@ -194,11 +194,11 @@ export default {
               </li>
             </ol>
           </template>
-        <h3>Also check out the Geneva Challengelist by <a href="https://gdlchallenge.pages.dev">CLICKING HERE</a>!</h3>
+        <h3>Also check out the Glorpulon Challengelist by <a href="https://gdlchallenge.pages.dev">CLICKING HERE</a>!</h3>
                     <h3>The list of GDL Top Records are <a href="https://gdltop1.pages.dev">FOUND HERE</a>!</h3>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Submission MUST be done by somebody who lives in the same town as the other people on the list.
+                        Submission MUST be done by somebody is has been approved to be on the GDL. To be approved, please submit this form. https://forms.gle/UmTFCUXyCYnoF9Yb6
                     </p>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed). When using mod menus ( Mega Hack, Eclipse, etc ), the Cheat Indicator must be on.
@@ -229,12 +229,6 @@ export default {
                     </p>
                     <p>
                         Do not use easy modes, only a record of the unmodified level qualifies
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List ( Below Top 200 ), new records are no longer accepted. Sorry!
-                    </p>
-                    <p>
-                        All submissions here must be done on the full version of Geometry Dash. Any completions on Lite must go to the Lite list.
                     </p>
                     <p>
                         All levels on this list must be published and publicly available for anybody with the full version to play.
