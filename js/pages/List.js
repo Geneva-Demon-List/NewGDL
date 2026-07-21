@@ -207,7 +207,7 @@ export default {
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record. If it is a level new to the site, this rule is invalidated.
                     </p>
                     <p>
-                        Have audible click sounds ( no clickbot allowed ) OR a handcam throughout the video only IF it is a Hard Demon, Insane Demon, or Extreme Demon. If it is unrated, it is up to our decision.
+                        Have audible click sounds ( no clickbot allowed ) OR a handcam throughout the video only IF it is an Insane Demon or Extreme Demon. If it is unrated, it has to be higher than Megalovania on the list.
                     </p>
                     <p>
                         About Clickbotting levels, they are considered extremely suspicious on this list. If you clickbot one or two easy demons for example, it will usually not be considered a rulebreak. Doing it often, however, can lead into a purge of your submissions or even a possible ban.
