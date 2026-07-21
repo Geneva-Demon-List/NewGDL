@@ -207,13 +207,13 @@ export default {
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record. If it is a level new to the site, this rule is invalidated.
                     </p>
                     <p>
-                        Have audible click sounds ( no clickbot allowed ) OR a handcam throughout the video only IF it is an Insane Demon or Extreme Demon. If it is unrated, it has to be higher than Megalovania on the list.
+                        Have audible click sounds ( no clickbot allowed ) OR a handcam throughout the video only IF it is an Insane Demon or Extreme Demon. If it is unrated, it has to be higher than the easiest Rated Insane Demon on the list.
                     </p>
                     <p>
                         About Clickbotting levels, they are considered extremely suspicious on this list. If you clickbot one or two easy demons for example, it will usually not be considered a rulebreak. Doing it often, however, can lead into a purge of your submissions or even a possible ban.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. ( Only applies to Unrated/Rated Insane Demon or Extreme Demon )
+                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
                     </p>
                     <p>
                         If the level is a verification, a level new to the list, the entire attempt must be recorded. This applies to all levels.
