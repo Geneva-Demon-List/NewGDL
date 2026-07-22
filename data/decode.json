@@ -1,4 +1,3 @@
-
 {
     "id": 2997354,
     "name": "Decode",
@@ -9,5 +8,11 @@
     "percentToQualify": "100",
     "difficulty": "Easy Demon",
     "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/itT9fTsmbVw",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
