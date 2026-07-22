@@ -3,10 +3,16 @@
     "name": "Speed of Light II",
     "author": "TheRealSalad",
     "creators": [],
-    "verifier": "wRocket",
-    "verification": "https://youtu.be/lIcS1KbuUSk",
+    "verifier": "MrGilFellow",
+    "verification": "https://youtu.be/wlxTPzewY7A",
     "percentToQualify": "100",
     "difficulty": "Medium Demon",
     "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/lIcS1KbuUSk",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
