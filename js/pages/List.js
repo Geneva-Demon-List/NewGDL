@@ -116,6 +116,7 @@ export default {
         <div class="level">
           <h1>{{ selectedLevel.name }}</h1>
           <LevelAuthors :author="selectedLevel.author" :creators="selectedLevel.creators" :verifier="selectedLevel.verifier"></LevelAuthors>
+<p v-if="selectedLevel.tentative">! This levels placement is tentative; it may change quite a bit!</p>
           <iframe class="video" id="videoframe" :src="embed(selectedLevel.showcase || selectedLevel.verification)" frameborder="0"></iframe>
           <ul class="stats">
             <li>
