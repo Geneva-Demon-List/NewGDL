@@ -29,6 +29,14 @@ export function score(rank, percent, minPercent) {
 
     score = Math.max(0, score);
 
+    if (rank > 150) {
+        score = score * 0.1
+    } else if (rank > 75) {
+        score = score * 0.4
+    } else if (rank > 40) {
+        score = score * 0.7
+    }
+    
     if (percent < minPercent) {
         return 0;
     }
@@ -36,7 +44,7 @@ export function score(rank, percent, minPercent) {
     if (percent != 100) {
         return round(score - score / 3);
     }
-
+    
     return Math.max(round(score), 0);
 }
 
