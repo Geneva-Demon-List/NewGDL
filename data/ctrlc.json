@@ -5,8 +5,8 @@
     "creators": [],
     "verifier": "wRocket",
     "verification": "https://www.youtube.com/watch?v=VADLqTQimgY",
-    "percentToQualify": "100",
-    "difficulty": "Easy Demon",
+    "percentToQualify": "60",
+    "difficulty": "Medium Demon",
     "records": [
     ]
 }
