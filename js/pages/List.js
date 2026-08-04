@@ -127,7 +127,7 @@ export default {
                 }}
               </p>
             </li>
-            <li v-if="selectedLevel.percentToQualify < 100 && getOriginalRank(selectedLevel) <= 75">
+            <li v-if="selectedLevel.percentToQualify < 100 && getOriginalRank(selectedLevel) <= 150">
               <div class="type-title-sm">Points when getting {{ selectedLevel.percentToQualify }}%</div>
               <p>
                 {{
@@ -141,7 +141,7 @@ export default {
             </li>
           </ul>
           <h2>Records</h2>
-          <p v-if="selectedIndexInFullList <= 75">
+          <p v-if="selectedIndexInFullList <= 150">
             <strong>{{ selectedLevel.percentToQualify }}%</strong> to qualify
           </p>
           <p v-else-if="selectedIndexInFullList <= 9999">
