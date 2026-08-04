@@ -44,7 +44,7 @@ export function score(rank, percent, minPercent) {
     }
     
     if (percent != 100) {
-        return round(score - score / 4);
+        return round(score - score / 5);
     }
     
     return Math.max(round(score), 0);
