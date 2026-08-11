@@ -45,7 +45,8 @@ export function score(rank, percent, minPercent) {
     
     if (percent != 100) {
         let waythroughthelevel = ((percent - minPercent) / (100 - minPercent));
-        return (score / 5) * (waythroughthelevel * 3) + (score / 5);
+        score = ((score / 5) * (waythroughthelevel * 3) + (score / 5));
+        return score;
     }
     
     return Math.max(round(score), 0);
