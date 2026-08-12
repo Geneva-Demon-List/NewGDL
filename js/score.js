@@ -28,10 +28,8 @@ export function score(rank, percent, minPercent) {
     }
     
     score = Math.max(0, score);
-
-    if (rank > 300) {
-        score = score * 0.1
-    } else if (rank > 150) {
+   
+    if (rank > 150) {
         score = score * 0.2
     } else if (rank > 75) {
         score = score * 0.3
