@@ -34,9 +34,9 @@ export function score(rank, percent, minPercent) {
     } else if (rank > 150) {
         score = score * 0.2
     } else if (rank > 75) {
-        score = score * 0.4
+        score = score * 0.3
     } else if (rank > 40) {
-        score = score * 0.7
+        score = score * 0.6
     }
     
     if (percent < minPercent) {
