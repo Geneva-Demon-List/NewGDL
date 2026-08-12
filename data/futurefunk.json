@@ -8,5 +8,11 @@
     "percentToQualify": "62",
     "difficulty": "Hard Demon",
     "records": [
+        {
+            "user": "Kyro",
+            "link": "https://www.youtube.com/watch?v=g5Se_oc0IX8",
+            "percent": 64,
+            "hz": 999
+        }
     ]
 }
