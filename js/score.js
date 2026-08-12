@@ -22,7 +22,7 @@ export function score(rank, percent, minPercent) {
     */
     // New formula
     let score = (500 / ((rank + 5.1) / 6.1)) *
-        (((percent / 100) * minPercent) / minPercent);
+        ((score / 4) * ((percent - minPercent) / (100 - minPercent) * 2 + 1));
 
     score = Math.max(0, score);
 
@@ -38,10 +38,6 @@ export function score(rank, percent, minPercent) {
     
     if (percent < minPercent) {
         return 0;
-    }
-    
-    if (percent != 100) {
-        return round(score - score / 5);
     }
     
     return Math.max(round(score), 0);
