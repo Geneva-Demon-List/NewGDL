@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=w6M1XfLr3Uc",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "EarthMoth",
+            "link": "https://youtu.be/mrbGBpNB85k",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
