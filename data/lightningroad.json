@@ -13,6 +13,12 @@
             "link": "https://youtu.be/1Fdcpw0b0n8",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Kyro",
+            "link": "https://www.youtube.com/watch?v=KyH_Db5ypsY",
+            "percent": 100,
+            "hz": "something"
         }
     ]
 }
