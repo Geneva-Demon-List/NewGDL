@@ -133,7 +133,7 @@ export default {
                 </td>
                 <td class="level">
                   <a class="type-label-lg" target="_blank" :href="score.link">
-                    {{ score.percent }}% {{ score.level }}
+                    {{{ score.level } { score.percent }}%}
                   </a>
                 </td>
                 <td class="score">
